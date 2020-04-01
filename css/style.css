@@ -10,6 +10,7 @@ body {
   font-size: 1.6rem;
   overflow-x: hidden;
 }
+
 *,
 *:before,
 *:after {
@@ -24,6 +25,7 @@ body {
   width: 100%;
   height: 80%;
 }
+
 .container-large {
   width: 100vw;
   margin: 0;
@@ -44,9 +46,11 @@ h3 {
 h4 {
   font-size: 2.6rem;
 }
+
 p {
   font-size: 1.6rem;
 }
+
 a:hover {
   list-style: none;
   text-decoration: none;
@@ -54,6 +58,7 @@ a:hover {
   color: red;
   border-bottom: 0.3rem solid red;
 }
+
 /* header */
 header {
   position: relative;
@@ -61,6 +66,7 @@ header {
   height: 100vh;
   overflow: hidden;
 }
+
 /* video header */
 .videobg {
   position: absolute;
@@ -72,6 +78,7 @@ header {
   right: 0;
   bottom: 0;
 }
+
 header:before {
   content: "";
   position: absolute;
@@ -83,6 +90,7 @@ header:before {
   z-index: -2;
   width: 100vw;
 }
+
 /* query video header */
 @media (min-aspect-ratio: 16/9) {
   .videobg {
@@ -102,6 +110,7 @@ header:before {
   .videobg {
     display: none;
   }
+
   body {
     background: url("../img/bg_001.jpg");
     background-size: cover;
@@ -118,9 +127,11 @@ nav {
   align-items: center;
   position: relative;
 }
+
 nav .menu {
   margin-right: 12rem;
 }
+
 nav a:focus {
   color: red;
   border-bottom: 0.3rem solid red;
@@ -187,20 +198,25 @@ nav .menu ul li {
   font-weight: 900;
   letter-spacing: 0.5rem;
 }
+
 nav .menu ul li:last-child {
   margin-left: 0;
 }
+
 nav a {
   text-decoration: none;
   color: white;
   padding-bottom: 1rem;
 }
-nav > img {
+
+nav>img {
   display: none;
 }
-nav > .berger_menu {
+
+nav>.berger_menu {
   display: none;
 }
+
 /* Menu media query */
 @media only screen and (max-width: 600px) {
   nav .menu ul {
@@ -215,9 +231,11 @@ nav > .berger_menu {
     z-index: 100;
     padding-left: 0;
   }
+
   nav .menu ul li:hover {
     background-color: rgba(73, 110, 134, 0.596);
   }
+
   nav .menu ul li {
     display: flex;
     list-style: none;
@@ -227,12 +245,15 @@ nav > .berger_menu {
     height: 5rem;
     align-items: center;
   }
+
   nav .menu ul li:first-child {
     margin: 0;
   }
+
   .berger nav .menu ul {
     visibility: hidden;
   }
+
   nav .berger_menu {
     display: initial;
   }
@@ -248,18 +269,22 @@ nav > .berger_menu {
   align-items: center;
   text-align: center;
 }
+
 .intro {
   width: 50%;
 }
+
 .intro span {
   color: red;
 }
+
 .intro button {
   width: 50%;
   height: 5rem;
   font-size: 1em;
   font-weight: 900;
 }
+
 .svg {
   position: absolute;
   bottom: 0;
@@ -277,6 +302,7 @@ nav > .berger_menu {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .about::before {
   content: "";
   position: absolute;
@@ -287,7 +313,8 @@ nav > .berger_menu {
   z-index: -1;
   background-color: #1b2a2f;
 }
-.about-top{
+
+.about-top {
   display: flex;
   align-items: center;
   padding-top: 3rem;
@@ -298,6 +325,7 @@ nav > .berger_menu {
   padding: 3rem;
   align-self: flex-start;
 }
+
 .mau-pict img {
   width: 100%;
   min-width: 5rem;
@@ -305,15 +333,17 @@ nav > .berger_menu {
   filter: contrast(1.5);
 }
 
-.about-title,.skills-title {
+.about-title,
+.skills-title {
   color: white;
   width: fit-content;
-margin: 0 auto;
+  margin: 0 auto;
   text-align: center;
   animation: move 1s forwards 00s linear;
 }
 
-.about-title h3, .skills-title h3 {
+.about-title h3,
+.skills-title h3 {
   animation: move 1s forwards 0s linear;
   font-size: 6rem;
   font-weight: 900;
@@ -328,16 +358,19 @@ margin: 0 auto;
     transform: translateX(-100%);
     opacity: 0;
   }
+
   50% {
     transform: translateX(-50%);
     opacity: 0;
   }
+
   75% {
-   
+
     opacity: .2;
   }
+
   90% {
-    
+
     opacity: .5;
   }
 
@@ -346,7 +379,7 @@ margin: 0 auto;
   }
 }
 
-.about .container-l{
+.about .container-l {
   width: 70vw;
   height: 80vh;
   text-align: center;
@@ -357,32 +390,38 @@ margin: 0 auto;
 .about-info {
   margin: 0 auto;
   max-width: 60rem;
-margin-top:20rem;
-} 
-.about-info P{
+  margin-top: 20rem;
+}
+
+.about-info P {
   font-size: 2rem;
   color: white;
 }
 
-.about-info span{
+.about-info span {
   color: red;
   font-style: italic;
 }
-.about-info a{
+
+.about-info a {
   color: red;
 }
-.about-info button{
+
+.about-info button {
   background-color: rgba(255, 0, 0, 0.185);
   margin-top: 3rem;
 }
-.about-info button a{
+
+.about-info button a {
   color: white;
   font-weight: bold;
 }
-.about-info button a:hover{
+
+.about-info button a:hover {
   border: none;
 }
-.about-png{
+
+.about-png {
   position: absolute;
   left: 10vw;
   bottom: 9vh;
@@ -390,58 +429,146 @@ margin-top:20rem;
 }
 
 /* SKILLS */
-.skills{
+.skills {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: fit-content;
+  min-height: 100vh;
   background: url(../img/skills.svg);
   background-color: #1b2a2f;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
-}
-.skills-title h3{
-padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
-.skill-icons{
+.skills-title h3 {
+  padding-top: 1rem;
+}
+
+.skill-icons {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  height:fit-content;
+  height: fit-content;
   max-width: 85rem;
- 
   margin: 0 auto;
   margin-top: 4rem;
+  background-color: rgba(255, 0, 0, 0.185);
 
 }
 
-.skill-icons .icon-box{
+.skill-icons .icon-box {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 2rem;
-  width:12rem;
-  height:12rem;
+  width: 12rem;
+  height: 12rem;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   background-color: red;
   font-size: 5rem;
   color: red;
 
 }
-.skill-icons .icon-box::before{
+
+.skill-icons .icon-box::before {
   position: absolute;
   content: "";
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  clip-path: polygon(51% 3%, 97% 25%, 97% 75%, 50% 97%, 3% 75%, 3% 25%);
+  clip-path: polygon(50% 3%, 97% 25%, 97% 75%, 50% 97%, 3% 75%, 3% 25%);
   background-color: rgb(27, 42, 47);
   z-index: -1;
 }
+
+.skills-range {
+  width: 100%;
+  height: fit-content;
+  max-width: 85rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  background-color: rgba(255, 0, 0, 0.185);
+
+}
+
+.range-box p {
+  margin: 0;
+  color: white;
+  font-size: 2rem;
+  width: 10rem;
+}
+
+.range-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  margin: 2rem;
+
+}
+
+.range-box>.aone,
+.atwo,
+.athree,
+.afour,
+.afive,
+.bone,
+.btwo,
+.bthree,
+.bfour,
+.bfive,
+.cone,
+.ctwo,
+.cthree,
+.cfour,
+.cfive,
+.done,
+.dtwo,
+.dthree,
+.dfour,
+.dfive,
+.eone,
+.etwo,
+.ethree,
+.efour,
+.efive,
+.fone,
+.ftwo,
+.fthree,
+.ffour,
+.ffive,
+.gone,
+.gtwo,
+.gthree,
+.gfour,
+.gfive {
+  position: relative;
+  margin: 1rem;
+  width: 2rem;
+  height: 2rem;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: red;
+
+}
+
+.range-box>.afive::before,.bfive::before,.cfive::before,.cfour::before,.dfive::before,.dfour::before,.dthree::before,.dtwo::before,.ffive::before,.ffour::before,.gfive::before,.gfour::before,.gthree::before,.gtwo::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  clip-path: polygon(50% 3%, 97% 25%, 97% 75%, 50% 97%, 3% 75%, 3% 25%);
+  background-color: rgb(27, 42, 47);
+
+}
+
+
 
 /* General Media query */
 /* @media only screen and (max-width: 1200px) {
