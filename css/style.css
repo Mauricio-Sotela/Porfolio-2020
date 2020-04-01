@@ -86,7 +86,7 @@ header:before {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(22, 22, 22, 0.548);
+  background-color: rgba(22, 22, 22, 0.829);
   z-index: -2;
   width: 100vw;
 }
@@ -334,7 +334,8 @@ nav>.berger_menu {
 }
 
 .about-title,
-.skills-title {
+.skills-title,
+.projects-title {
   color: white;
   width: fit-content;
   margin: 0 auto;
@@ -343,7 +344,8 @@ nav>.berger_menu {
 }
 
 .about-title h3,
-.skills-title h3 {
+.skills-title h3,
+.projects-title h3{
   animation: move 1s forwards 0s linear;
   font-size: 6rem;
   font-weight: 900;
@@ -442,7 +444,8 @@ nav>.berger_menu {
   padding-bottom: 3rem;
 }
 
-.skills-title h3 {
+.skills-title h3
+{
   padding-top: 1rem;
 }
 
@@ -455,7 +458,7 @@ nav>.berger_menu {
   max-width: 85rem;
   margin: 0 auto;
   margin-top: 4rem;
-  background-color: rgba(255, 0, 0, 0.185);
+  /* background-color: rgba(255, 0, 0, 0.185); */
 
 }
 
@@ -492,7 +495,7 @@ nav>.berger_menu {
   max-width: 85rem;
   margin: 0 auto;
   margin-top: 4rem;
-  background-color: rgba(255, 0, 0, 0.185);
+  /* background-color: rgba(255, 0, 0, 0.185); */
 
 }
 
@@ -566,6 +569,23 @@ nav>.berger_menu {
   clip-path: polygon(50% 3%, 97% 25%, 97% 75%, 50% 97%, 3% 75%, 3% 25%);
   background-color: rgb(27, 42, 47);
 
+}
+
+.projects {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  min-height: 100vh;
+  background: url(../img/projects.svg);
+  background-color: #1b2a2f;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 3rem;
+}
+
+.projects-title h3 {
+padding-top: 6rem;
 }
 
 
