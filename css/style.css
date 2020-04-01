@@ -79,7 +79,7 @@ header:before {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(22, 22, 22, 0.842);
+  background-color: rgba(22, 22, 22, 0.548);
   z-index: -2;
   width: 100vw;
 }
@@ -356,7 +356,7 @@ margin: 0 auto;
 
 .about-info {
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 60rem;
 margin-top:20rem;
 } 
 .about-info P{
