@@ -12,8 +12,10 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/css-bootstrap/bootstrap.min.css">
   <!-- my own css -->
   <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/litghbox.css">
   <title>Porfolio</title>
 </head>
 
@@ -196,9 +198,125 @@
     <div class="projects-title">
       <h3>PROJECTS</h3>
     </div>
+ 
+<div class=" projects-box">
+  <div class="row">
+    <div class="column">
+      <img src="./img/projects/img1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="./img/projects/img2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="./img/projects/img3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="./img/projects/img4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="./img/projects/img5.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="./img/projects/img6.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="./img/projects/img7.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="./img/projects/img8.png" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+    </div>
   </div>
-
 </div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="./img/projects/img1.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="./img/projects/img2.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="./img/projects/img3.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="./img/projects/img4.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="./img/projects/img5.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="./img/projects/img6.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="./img/projects/img7.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="./img/projects/img8.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+   
+    <div class="column2">
+      
+      <img class="demo cursor" src="./img/projects/img1.png" style="width:100%" onclick="currentSlide(1)" alt="You Tube imitation">
+  
+    
+      <img class="demo cursor" src="./img/projects/img2.png" style="width:100%" onclick="currentSlide(2)" alt="Full Web Site with Bootstrap">
+  
+    
+      <img class="demo cursor" src="./img/projects/img3.png" style="width:100%" onclick="currentSlide(3)" alt="Responsive Design">
+  
+    
+      <img class="demo cursor" src="./img/projects/img4.png" style="width:100%" onclick="currentSlide(4)" alt="Airbnb Main Page">
+
+       <img class="demo cursor" src="./img/projects/img5.png" style="width:100%" onclick="currentSlide(5)" alt="Periodic Table">
+
+  
+    <img class="demo cursor" src="./img/projects/img6.png" style="width:100%" onclick="currentSlide(6)" alt="Chess Game">
+
+  
+    <img class="demo cursor" src="./img/projects/img7.png" style="width:100%" onclick="currentSlide(7)" alt="Calculator">
+
+  
+    <img class="demo cursor" src="./img/projects/img8.png" style="width:100%" onclick="currentSlide(8)" alt="Weather App">
+  </div>
+  <div class="column2">
+      
+   
+    
+</div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
 
 
 

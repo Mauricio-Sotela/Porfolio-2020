@@ -587,6 +587,16 @@ nav>.berger_menu {
 .projects-title h3 {
 padding-top: 6rem;
 }
+.projects-box{
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
 
 
 
