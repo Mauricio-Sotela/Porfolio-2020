@@ -349,6 +349,38 @@ margin: 0 auto;
 .about .container-l{
   width: 70vw;
   height: 80vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-info {
+  margin: 0 auto;
+  max-width: 80%;
+margin-top:20rem;
+} 
+.about-info P{
+  font-size: 2rem;
+  color: white;
+}
+
+.about-info span{
+  color: red;
+  font-style: italic;
+}
+.about-info a{
+  color: red;
+}
+.about-info button{
+  background-color: rgba(255, 0, 0, 0.185);
+  margin-top: 3rem;
+}
+.about-info button a{
+  color: white;
+  font-weight: bold;
+}
+.about-info button a:hover{
+  border: none;
 }
 
 /* General Media query */
