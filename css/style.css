@@ -400,7 +400,48 @@ margin-top:20rem;
   background-repeat: no-repeat;
   background-size: contain;
 }
+.skills-title h3{
+padding-top: 1rem;
+}
 
+.skill-icons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height:fit-content;
+  max-width: 85rem;
+ 
+  margin: 0 auto;
+  margin-top: 4rem;
+
+}
+
+.skill-icons .icon-box{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  width:12rem;
+  height:12rem;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: red;
+  font-size: 5rem;
+  color: red;
+
+}
+.skill-icons .icon-box::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  clip-path: polygon(51% 3%, 97% 25%, 97% 75%, 50% 97%, 3% 75%, 3% 25%);
+  background-color: rgb(27, 42, 47);
+  z-index: -1;
+}
 
 /* General Media query */
 /* @media only screen and (max-width: 1200px) {
