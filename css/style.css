@@ -304,8 +304,12 @@ text-shadow: none;
 .mau-pict img{
   width: 100%;
   border-radius: 50%;
+  filter: contrast(1.5);
 }
 
+.mau-pict img{
+
+}
 
 
 
