@@ -335,7 +335,8 @@ nav>.berger_menu {
 
 .about-title,
 .skills-title,
-.projects-title {
+.projects-title,
+.contact-title {
   color: white;
   width: fit-content;
   margin: 0 auto;
@@ -345,7 +346,8 @@ nav>.berger_menu {
 
 .about-title h3,
 .skills-title h3,
-.projects-title h3{
+.projects-title h3,
+.contact-title h3{
   animation: move 1s forwards 0s linear;
   font-size: 6rem;
   font-weight: 900;
@@ -353,6 +355,9 @@ nav>.berger_menu {
   margin-left: 3rem;
   padding-bottom: 1rem;
   border-bottom: .4rem solid red;
+}
+.about-title h3{
+  padding-top: 13rem;
 }
 
 @keyframes move {
@@ -598,7 +603,72 @@ padding-top: 6rem;
   height: 80vh;
 }
 
+/* CONTACT ME */
 
+.contact {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  min-height: 100vh;
+  background: url(../img/skills.svg);
+  background-color: #1b2a2f;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 3rem;
+}
+
+
+.contact-form{
+  background-color: rgb(255, 255, 255);
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.contact-form .form-control{
+  border-radius:1rem;
+}
+.contact-image{
+  text-align: center;
+}
+.contact-image img{
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form{
+  padding: 14%;
+}
+.contact-form form .row{
+  margin-bottom: -7%;
+}
+.contact-form h3{
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
 
 /* General Media query */
 /* @media only screen and (max-width: 1200px) {
