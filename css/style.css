@@ -629,6 +629,9 @@ padding-top: 6rem;
   border-radius:1rem;
   border: .1rem solid rgba(255, 0, 0, 0.322);
 }
+.form-control{
+  font-size: 1.4rem;
+}
 .contact-image{
   text-align: center;
 }
@@ -640,6 +643,7 @@ padding-top: 6rem;
 }
 .contact-form form{
   padding: 14%;
+
 }
 .contact-form form .row{
   margin-bottom: -7%;
