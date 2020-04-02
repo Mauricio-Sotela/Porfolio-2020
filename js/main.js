@@ -58,6 +58,11 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
+/* prevent default */
+document.querySelector("#sub").addEventListener("click", function(event){
+  event.preventDefault()
+});
+
 ///////////function////////////////========>//not working ATM
 // window.addEventListener('scroll', () => {
 //   document.body.classList.add('berger');
