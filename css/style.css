@@ -564,7 +564,7 @@ nav>.berger_menu {
 
 }
 
-.range-box>.afive::before,.bfive::before,.cfive::before,.cfour::before,.dfive::before,.dfour::before,.dthree::before,.dtwo::before,.ffive::before,.ffour::before,.gfive::before,.gfour::before,.gthree::before,.gtwo::before {
+.range-box>.afive::before,.bfive::before,.cfive::before,.cfour::before,.dfive::before,.dfour::before,.dthree::before,.dtwo::before,.ffive::before,.ffour::before,.gfive::before,.gfour::before,.gthree::before,.gtwo::before,.efive::before,.efour::before,.ethree::before,.etwo::before {
   position: absolute;
   content: "";
   top: 0;
@@ -610,11 +610,11 @@ padding-top: 6rem;
   width: 100%;
   height: fit-content;
   min-height: 100vh;
-  background: url(../img/skills.svg);
+  background: url(../img/footer.png);
   background-color: #1b2a2f;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   padding-bottom: 3rem;
 }
 
@@ -666,10 +666,12 @@ padding-top: 6rem;
   border-radius: 1rem;
   padding: 1.5%;
   color: #fff;
-  background-color: #0062cc;
   border: none;
   cursor: pointer;
 }
+
+
+
 
 /* General Media query */
 /* @media only screen and (max-width: 1200px) {
