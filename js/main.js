@@ -63,6 +63,7 @@ document.querySelector("#sub").addEventListener("click", function(event){
   event.preventDefault()
 });
 
+
 ///////////function////////////////========>//not working ATM
 // window.addEventListener('scroll', () => {
 //   document.body.classList.add('berger');
